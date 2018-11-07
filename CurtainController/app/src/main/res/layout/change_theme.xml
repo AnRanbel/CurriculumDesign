@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 主界面头部工具条 -->
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="?attr/colorPrimary">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:contentDescription="@string/image_description_1"
+                android:id="@+id/back"
+                android:layout_width="@dimen/view_width_height"
+                android:layout_height="@dimen/view_width_height"
+                android:padding="15dp"
+                android:src="@mipmap/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/activity_main_drawer_item_3"
+                android:textSize="@dimen/title_size"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorText" />
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- 主题风格(选择) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_theme"
+            android:textSize="@dimen/title_size"
+            android:layout_marginBottom="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <View
+                android:id="@+id/skin_01"
+                android:layout_width="@dimen/view_width_height"
+                android:layout_height="@dimen/view_width_height"
+                android:clickable="true"
+                android:background="@color/colorPrimary"
+                android:layout_marginEnd="10dp"/>
+
+            <View
+                android:id="@+id/skin_02"
+                android:layout_width="@dimen/view_width_height"
+                android:layout_height="@dimen/view_width_height"
+                android:clickable="true"
+                android:background="@color/skin_02"
+                android:layout_marginEnd="10dp"/>
+
+            <View
+                android:id="@+id/skin_03"
+                android:layout_width="@dimen/view_width_height"
+                android:layout_height="@dimen/view_width_height"
+                android:clickable="true"
+                android:background="@color/skin_03"
+                android:layout_marginEnd="10dp"/>
+
+            <View
+                android:id="@+id/skin_04"
+                android:layout_width="@dimen/view_width_height"
+                android:layout_height="@dimen/view_width_height"
+                android:clickable="true"
+                android:background="@color/skin_04"
+                android:layout_marginEnd="10dp"/>
+
+            <View
+                android:id="@+id/skin_05"
+                android:layout_width="@dimen/view_width_height"
+                android:layout_height="@dimen/view_width_height"
+                android:clickable="true"
+                android:background="@color/skin_05"
+                android:layout_marginEnd="10dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

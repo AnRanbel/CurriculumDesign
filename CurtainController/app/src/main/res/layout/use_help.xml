@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 主界面头部工具条 -->
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="?attr/colorPrimary">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <ImageView
+                    android:contentDescription="@string/image_description_1"
+                    android:id="@+id/back"
+                    android:layout_width="@dimen/view_width_height"
+                    android:layout_height="@dimen/view_width_height"
+                    android:padding="15dp"
+                    android:src="@mipmap/back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="@string/activity_main_drawer_item_1"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/colorText"/>
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="@dimen/title_size"
+        android:singleLine="true"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:drawablePadding="@dimen/use_help_layout_drawable_padding"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击主界面右下角"
+        android:layout_marginTop="@dimen/use_help_layout_margin"
+        android:textSize="@dimen/text_size"
+        android:drawableRight="@mipmap/button_wifi_press_icon"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接设备成功，即可拉动"
+        android:layout_marginTop="@dimen/use_help_layout_margin"
+        android:textSize="@dimen/text_size"
+        android:drawableRight="@mipmap/rope_icon"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="控制窗帘."
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

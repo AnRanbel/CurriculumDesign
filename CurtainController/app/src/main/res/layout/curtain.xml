@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- 窗帘(在CurtainView.java中使用) -->
+    <ImageView
+        android:contentDescription="@string/image_description_1"
+        android:id="@+id/img_curtain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@mipmap/curtain" />
+
+    <ImageView
+        android:contentDescription="@string/image_description_2"
+        android:id="@+id/img_curtain_rope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/img_curtain"
+        android:layout_marginEnd="@dimen/curtain_padding"
+        android:paddingLeft="@dimen/curtain_padding"
+        android:paddingRight="@dimen/curtain_padding"
+        android:paddingBottom="@dimen/curtain_padding"
+        android:src="@mipmap/rope" />
+
+</RelativeLayout>

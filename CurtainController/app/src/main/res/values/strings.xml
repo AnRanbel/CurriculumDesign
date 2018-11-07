@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CurtainController</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">www.ctbu.edu.cn</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">切换主题</string>
+    <string name="developer_name_1">孔颢颖</string>
+    <string name="developer_name_2">唐念</string>
+    <string name="developer_name_3">唐旭琴</string>
+    <string name="developer_name_4">王颖</string>
+    <string name="activity_main_drawer_item_1">使用帮助</string>
+    <string name="activity_main_drawer_item_2">关于我们</string>
+    <string name="activity_main_drawer_item_3">切换主题</string>
+    <string name="image_description_1">Here is a curtain</string>
+    <string name="image_description_2">Here is a rope</string>
+    <string name="app_theme">主题风格</string>
+</resources>

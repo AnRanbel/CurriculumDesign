@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme_2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/skin_02</item>
+        <item name="colorPrimaryDark">@color/skin_02</item>
+        <item name="colorAccent">@color/skin_02</item>
+    </style>
+
+    <style name="AppTheme_3" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/skin_03</item>
+        <item name="colorPrimaryDark">@color/skin_03</item>
+        <item name="colorAccent">@color/skin_03</item>
+    </style>
+
+    <style name="AppTheme_4" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/skin_04</item>
+        <item name="colorPrimaryDark">@color/skin_04</item>
+        <item name="colorAccent">@color/skin_04</item>
+    </style>
+
+    <style name="AppTheme_5" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/skin_05</item>
+        <item name="colorPrimaryDark">@color/skin_05</item>
+        <item name="colorAccent">@color/skin_05</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
